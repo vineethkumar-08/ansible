@@ -1,0 +1,28 @@
+- Name: "vineeth kumar"
+  DOB": 1996-08-08
+  MOBILE-NUMBER: 123456788
+  -Addresses:
+  - street: "123 Main St"
+    city: "Springfield"
+    state: "IL"
+    zip: "62701"
+    
+  - street: "456 Elm St"  
+    city: "Springfield"
+    state: "IL"
+    zip: "62702"
+   
+- Name: "chintu"
+  DOB": 1996-08-08
+  MOBILE-NUMBER: 9876543
+  -Addresses:
+  - street: "123 Main St"
+    city: "Springfield"
+    state: "IL"
+    zip: "62701"
+    
+  - street: "456 Elm St"  
+    city: "Springfield"
+    state: "IL"
+    zip: "62702"
+   

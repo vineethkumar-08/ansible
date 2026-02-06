@@ -1,0 +1,60 @@
+{
+    "students": 
+    [
+        {
+             "first-name": "vineeth kumar milatari",
+             "Age": 29,
+    
+            "Addresses":
+            [
+                {
+                    "Type": "Permanent",
+                     "Street": "832 strassleyway Southplainfeild",
+                     "City": "Southplainfeild",
+                     "State": "new jersey",
+                      "Zip": "07080"
+                   
+                },
+
+                {
+                    "Type": "Current",
+                     "Street": "832 strassleyway Southplainfeild",
+                     "City": "Southplainfeild",
+                     "State": "new jersey",
+                      "Zip": "07080"
+                   
+                }
+            ],
+            "skills": ["python", "ansible", "linux", "networking"]
+        },
+        
+        {
+
+             "first-name": "chintu",
+             "Age": 29,
+    
+            "Addresses":
+            [
+                {
+                    "Type": "Permanent",
+                     "Street": "832 strassleyway Southplainfeild",
+                     "City": "Southplainfeild",
+                     "State": "new jersey",
+                      "Zip": "07080"
+                   
+                },
+
+                {
+                    "Type": "Current",
+                     "Street": "832 strassleyway Southplainfeild",
+                     "City": "Southplainfeild",
+                     "State": "new jersey",
+                      "Zip": "07080"
+                   
+                }
+            ],
+            "skills": ["python", "ansible", "linux", "networking"]
+        }
+    ]
+    
+} 
