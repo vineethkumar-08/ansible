@@ -9,16 +9,15 @@
       MONTHS: 4
       TRAINER: "shiva kumar"
     TOPICS: # list data type either -/[]
-    - Linux
-    - Shell
-    - Ansible
+      - Linux
+      - Shell
+      - Ansible
   tasks:
   - name: print variables
-  ansible.builtin.debug:
+    ansible.builtin.debug:
     msg: |
      program: {{PROGRAM}}
      duration: {{DURATION}}
-     months: {{MONTHS}}
      details: {{DETAILS}}
      topics: {{TOPICS}}
 
