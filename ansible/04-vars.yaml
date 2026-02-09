@@ -1,5 +1,5 @@
 - name: vars
-  host: localhost
+  hosts: localhost
   connnections: local
   vars: 
     courses: "DevOps with AWS"
