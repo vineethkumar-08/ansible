@@ -4,7 +4,7 @@
   vars:
     NAME: "Ansible from play"
   vars_files:
-  - course.yaml
+    - course.yaml
   vars_prompt:
    - name: NAME
      prompt: please enter your name
