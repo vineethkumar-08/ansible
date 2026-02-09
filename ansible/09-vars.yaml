@@ -1,5 +1,5 @@
 - name: variables from args
-  hosts: localhost
+  hosts: local
   conntection: local
   tasks:
   - name: print variables from args
