@@ -1,0 +1,12 @@
+- name : Demo on loops
+  hosts: local
+  connection: local
+  tasks:
+  - name: print names
+    ansible.builtin.debug:
+      msg: "Hello {{ NAME }}"
+    loop:
+    - vineeth
+    - chintu
+    - lemrog
+    - annamarine
