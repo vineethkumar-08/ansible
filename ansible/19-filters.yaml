@@ -10,5 +10,5 @@
       msg: "hi, vineeth kumar, {{GREETING | default('Good morning')}}"
 
   - name: convert string to list
-    ansible.builting.debug:
+    ansible.builtin.debug:
       msg: "{{ TOPICS | split (',') }}"
