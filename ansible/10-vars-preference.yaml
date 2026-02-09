@@ -3,8 +3,8 @@
   hosts: localhost
   connection: local
 
-  vars:
-    NAME: "Ansible from play"
+  # vars:
+  #   NAME: "Ansible from play"
 
   # vars_files:
   #   - course.yaml
