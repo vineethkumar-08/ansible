@@ -1,0 +1,13 @@
+- name: installing the packages
+  hosts: local
+  conditions: local
+  become: yes
+  tasks:
+  - name: install packages
+    ansible.debug.packages:
+      name:
+      state: present
+    loop:
+    - mysql
+    - nginx
+    - zip
