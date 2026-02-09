@@ -10,7 +10,7 @@
     prompt: please enter your name
     private: false
 
-  - tasks:
+    tasks:
     - name: print name
       vars:
         NAME: "ansible for task"
