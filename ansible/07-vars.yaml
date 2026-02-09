@@ -1,6 +1,6 @@
-- name: print user name and password
+- name: print username and password
   hosts: local
-  connections: local
+  connection: local
   vars_prompt:
   - name: username
     prompt: please enter your user name
