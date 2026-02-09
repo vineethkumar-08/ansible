@@ -1,5 +1,5 @@
 - name: variable preference
-  host: local
+  hosts: local
   connection: local
   vars:
   - name: "Ansible from play"
