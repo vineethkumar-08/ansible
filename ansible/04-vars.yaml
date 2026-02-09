@@ -4,8 +4,8 @@
   vars: 
     courses: "DevOps with AWS"
     Duration: "140hrs"
-    trained: vineeth
+    trainer: vineeth
   tasks:
   - name: print variables
     ansible.builtin.debug:
-      msg: "courses is: {{courses}}, trainer is: {{vineeth}}, Duraton is: {{ 140hrs }}"
+      msg: "courses is: {{courses}}, trainer is: {{trainer}}, Duraton is: {{ Drration }}"
