@@ -1,5 +1,5 @@
 
-- name: play level variables
+- name: inventory  variables
   hosts: localhost
   connection: local 
   tasks:

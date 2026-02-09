@@ -1,0 +1,7 @@
+- name: variables from args
+  web: localhost
+  conntection: local
+  task:
+  - name: print variables from args
+    ansible.builtin.debug:
+      msg: "Hi {{ Name }} , Good morning"
