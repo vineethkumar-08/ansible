@@ -16,10 +16,10 @@
   - name: print variables
     ansible.builtin.debug:
       msg: |
-        program: {{PROGRAM}},
-        duration: {{DURATION}},
-        is_live: {{IS_LIVE}},
-        details: {{DETAILS}},
+        program: {{PROGRAM}}
+        duration: {{DURATION}}
+        is_live: {{IS_LIVE}}
+        details: {{DETAILS}}
         topics: {{TOPICS}}
 
 
