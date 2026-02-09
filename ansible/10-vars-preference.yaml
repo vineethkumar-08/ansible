@@ -6,15 +6,15 @@
   vars_files:
   - course.yaml
   vars_prompt:
-  - name: NAME
-    prompt: please enter your name
-    private: false
+   - name: NAME
+     prompt: please enter your name
+     private: false
 
-    tasks:
-    - name: print name
-      vars:
-        NAME: "ansible for task"
-      ansible.builtin.debug:
-        msg: "hi {{ NAME }}"
+  tasks:
+  - name: print name
+    vars:
+      NAME: "ansible for task"
+    ansible.builtin.debug:
+      msg: "hi {{ NAME }}"
 
 
