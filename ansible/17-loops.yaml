@@ -4,7 +4,7 @@
   become: yes
   tasks:
   - name: install packages
-    ansible.debug.packages:
+    ansible.debug.package:
       name:
       state: present
     loop:
