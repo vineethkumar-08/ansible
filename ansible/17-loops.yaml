@@ -1,6 +1,6 @@
 - name: installing the packages
   hosts: local
-  conditions: local
+  condition: local
   become: yes
   tasks:
   - name: install packages
