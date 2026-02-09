@@ -15,7 +15,7 @@
       private: false
 
   tasks:
-    - name: print name
+    - name: print nam
       vars:
         NAME: "ansible for task"
       ansible.builtin.debug:
