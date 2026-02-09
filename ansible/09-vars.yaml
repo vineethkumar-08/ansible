@@ -1,5 +1,5 @@
 - name: variables from args
-  web: localhost
+  host: localhost
   conntection: local
   task:
   - name: print variables from args
