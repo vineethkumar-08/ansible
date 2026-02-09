@@ -1,6 +1,6 @@
 - name: vars
   hosts: localhost
-  connnection: local
+  connection: local
   vars: 
     courses: "DevOps with AWS"
     Duration: "140hrs"
