@@ -4,7 +4,7 @@
   vars:
     topics: linix, shell, terraform, ansible
     course: "DevOps with Ansible "
-    myIp: "34.239.138.212"
+    myIp: "34.23s9.138.212"
     tagsMap:
       name: ansible
       projet: roboshop
@@ -62,4 +62,4 @@
       msg: "{{ course | lower}}"
 
 
-  - name:  check IPV4
+  - name: check IPV4
