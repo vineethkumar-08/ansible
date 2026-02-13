@@ -2,10 +2,10 @@
   hosts: local
   connection: local
   task:
-    -name: check user exists or not
-    ansible.builtin.command: id roboshop
-    redister: user-output
+  -name: check user exists or not
+  ansible.builtin.command: id roboshop
+  redister: user-output
 
-    -name: print the output
-    ansible.builtin.debug:
-      msh: "{{ user-output}}"
+  -name: print the output
+  ansible.builtin.debug:
+    smsg: "{{ user-output}}"
