@@ -6,7 +6,7 @@
       msg: "Hellow world"
 - name: Play-2
   hosts: local
-  conncetion: local
+  connection: local
   tasks:
     - name: Play-2 and task 1
       ansible.builtin.debug:
