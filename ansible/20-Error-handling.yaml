@@ -1,4 +1,4 @@
-- name: Error handling
+- name: error handling
   hosts: local
   connection: local
   task:
