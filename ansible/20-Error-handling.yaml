@@ -10,3 +10,8 @@
   - name: print the output
     ansible.builtin.debug:
       msg: "{{ user_output }}"
+
+  - name: create user
+    ansible.builtin.command: add user
+    when: user_output !=0
+    
