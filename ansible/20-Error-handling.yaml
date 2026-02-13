@@ -1,7 +1,7 @@
 - name: error handling
   hosts: local
   connection: local
-  task:
+  tasks:
   -name: check user exists or not
   ansible.builtin.command: id roboshop
   redister: user-output
