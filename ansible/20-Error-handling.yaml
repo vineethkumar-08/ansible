@@ -6,6 +6,6 @@
     ansible.builtin.command: id roboshop
     register: user-output
 
-  -name: print the output
-  ansible.builtin.debug:
-    msg: "{{ user-output}}"
+  - name: print the output
+    ansible.builtin.debug:
+      msg: "{{ user-output}}"
