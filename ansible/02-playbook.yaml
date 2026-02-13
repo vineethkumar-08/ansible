@@ -4,7 +4,7 @@
   - name: print hello world
     ansible.builtin.debug:
       msg: "Hellow world"
-- nmae: Play-2
+- name: Play-2
   hosts: local
   conncetion: local
   tasks:
