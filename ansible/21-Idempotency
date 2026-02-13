@@ -5,5 +5,4 @@
   tasks:
   - name: create user
     ansible.builtin.user:
-    name: vineeth
-     
+      name: vineeth
